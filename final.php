@@ -4,11 +4,15 @@
 	<head>
 		<link rel="stylesheet" type="text/css" href="final.css">
 		<script type="text/javascript">
+			var bleh;
 			var player_choice = -1;
 			var computer_choice = -1;
+			var games_played = 0;
 		</script>
 		<script type="text/javascript" src="icon.js"></script>
+		<script type="text/javascript" src="countdown.js"></script>
 		<script type="text/javascript" src="game.js"></script>
+		<script type="text/javascript" src="log.js"></script>
 		<title>CIS 215 Final</title>
 	</head>
 	<body>
@@ -28,5 +32,8 @@
 			<button onclick="countDown()" id="submit"><b>GO!</b></button>
 		</div>
 		<p id="result"></p>
+		<div class="content">
+			<textarea readonly id="log"></textarea>
+		</div>
 	</body>
 </html>
