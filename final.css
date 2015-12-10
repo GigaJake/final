@@ -1,0 +1,72 @@
+html {
+	background-color: #cccccc;
+}
+
+h1 {
+	font-size:50px;
+	font-family: Impact, Charcoal, sans-serif;
+	text-align: center;
+	font-style:oblique;
+}
+
+h3 {
+	font-family:Tahoma;
+	text-align:center;
+}
+
+div {
+	display: inline-block;
+}
+
+div.content {
+	margin-left:36%;
+	width:100%;
+}
+
+div.shoot {
+	display:inline-block;
+	background-color:white;
+	border: 3px solid black;
+	height:200px;
+	width: 200px;
+
+	font-size:64px;
+	font-family:Tahoma;
+	text-align:center;
+	line-height:190px;
+}
+
+p.select {
+	margin-top:10px;
+	font-family:Tahoma;
+	text-align:center;
+	width:100%;
+}
+
+button {
+	width: 100px;
+}
+
+#buttons {
+	margin-top:50px;
+}
+
+#thumbnail {
+	margin-left:25px;
+	background-color:white;
+	height:50px;
+	width: 50px;
+	border: 2px solid black;
+}
+
+#submit {
+	margin-top:10px;
+	margin-left:105px;
+}
+
+#result {
+	width:100%;
+	text-align:center;
+	font-family:Impact;
+	font-size:32px;
+}
